@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./21.css">
+    <title>21</title>
+    <link rel="shortcut icon" href="./img/cards.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <section id="cont">
+        <div id="dabba">
+            <header>
+                <h1>
+                    <span>2</span>1
+                </h1>
+                <img src="./img/cards.png" alt="">
+            </header>
+            <main>
+                <h2>Welcome to <span> Jackpot</span> </h2>
+                <h4 id="player_cards"></h4>
+                <h4 id="comp_cards"></h4>
+
+                <h4 id="total"></h4>
+                <h4 id="ctotal"></h4>
+
+
+                <div id="button">
+                    <button id="start_btn" onclick="start()">Start Game</button>
+                    <button id="draw_card_btn" onclick="new_card()">Draw Card</button>
+
+                </div>
+                <div id="rbut">
+                    <button id="reset_btn" onclick="winner()">Result</button>
+                </div>
+                <hr>    
+                <p id="message"></p>
+            </main>
+        </div>
+    </section>
+    <script src="./21.js"></script>
+</body>
+
+</html>
